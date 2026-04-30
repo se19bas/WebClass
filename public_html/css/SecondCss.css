@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 25 abr 2026, 18:01:21
+    Author     : USER
+*/
+li:first-child{
+    font-size: 2em;
+}
+li:last-child{
+    font-size: 0.8em;
+}
+
+li.emLine{
+    font-size: 1em;
+    display: inline;
+}
+
+.hov:hover{
+    background-color: purple;
+    color: white;
+}
+.celula{
+    cursor: pointer;
+}
+
+.celula:active{
+    color: white;
+    background-color: red;
+}
+
+tr:nth-child(odd){
+    background-color: silver;
+}
